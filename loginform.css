@@ -1,0 +1,34 @@
+header,
+#mobile-header {
+display: none !important;
+}
+
+#primary {
+    background: #fff url('https://s3.amazonaws.com/lpo-images/mpl/2016/03/01225504/sheet-music-3.png') no-repeat !important;
+  background-size: cover !important;
+}
+
+.site-content {
+    min-height: 736px;
+}
+
+.entry-title {
+text-align: center;
+padding-bottom:25px;
+}
+
+h1.entry-title {
+color: #fff !important;
+text-shadow: 2px 2px 4px #000000
+}
+/* hide custom footer */
+.dropdown {
+display: none;
+}
+
+
+@media only screen and (max-width: 481px) {
+   #inner-wrap {
+    margin-top: 0px;
+}
+}
